@@ -650,7 +650,6 @@ img {
 
 
 .label-sign-up {
-    
     width: 207px;
     margin: 0 auto;
     font-family: var(--main-font);
@@ -669,7 +668,6 @@ img {
 
 
 .form-newsletter {
-    align-items: baseline;
     margin: 0 auto;
 }
 
@@ -685,8 +683,6 @@ img {
     margin-right: 12px;
     display: inline-block;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    color: #ffffff;
 }
 
 .input-newsletter:focus {
@@ -695,18 +691,17 @@ img {
 }
 
 .button-newsletter {
+    display: inline-block;
     height: 50px;
     width: 200px;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     border: none;
-    position: relative;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 20px;
+    cursor: pointer;
 }
 
 .button-newsletter-title {
-    position: absolute;
     top: 10px;
     left: 42px;
     color: #ffffff;
@@ -715,16 +710,17 @@ img {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
+    display: inline-block;
 }
 
 .button-newsletter-icon {
-    position: absolute;
     top: 13px;
     right: 28px;
     bottom: 13px;
     width: 24px;
     height: 24px;
-    background: #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
 }
 
 .input-newsletter::placeholder {
