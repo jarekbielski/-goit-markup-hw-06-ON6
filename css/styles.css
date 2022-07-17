@@ -470,7 +470,7 @@ img {
     margin-bottom: 30px;
     background-color: #FFFFFF;
     fill: #AFB1B8;
-    transition-property: fill, border, cursor;
+    transition-property: fill, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -615,7 +615,7 @@ img {
     width: 44px;
     height: 44px;
     text-decoration: none;
-    transition-property: background-color; 
+    transition-property: color; 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
