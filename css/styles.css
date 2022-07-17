@@ -510,7 +510,7 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px;
-    transition-property: fill, background-color;
+    transition-property: fill, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -615,7 +615,7 @@ img {
     width: 44px;
     height: 44px;
     text-decoration: none;
-    transition-property: fill, background-color, cursor;
+    transition-property: background-color; 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -644,7 +644,7 @@ img {
     display: flex;
     width: 20px;
     height: 20px;
-    transition-property: fill, background-color, cursor;
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -778,7 +778,7 @@ img {
     padding: 6px 22px;
     margin-bottom: 50px;
     border-style: none;
-    transition-property: color, background-color, cursor, box-shadow;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -807,7 +807,7 @@ img {
     margin: 15px;
     flex-basis: calc(100%/3 - 30px);
     background: #FFFFFF;
-    transition-property: cursor, box-shadow;
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
